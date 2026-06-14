@@ -1,7 +1,6 @@
 package topic
 
 import (
-	"fmt"
 	"net/http"
 )
 
@@ -14,7 +13,7 @@ func CreateTopic(w http.ResponseWriter, r *http.Request) {
 	// 	msg := fmt.Sprintf("Create Topic By Id :%d", num)
 	// 	w.Write([]byte(msg))
 	// }
-	msg := fmt.Sprintf("Create New Topic By ")
+	msg := "Create New Topic By "
 	w.Write([]byte(msg))
 
 }
